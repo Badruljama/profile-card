@@ -1,0 +1,143 @@
+body{
+    width: 1000px;
+    height: 1500px;
+    margin: auto;
+    background-color: rgb(8, 34, 71);
+}
+
+#topbar{
+    background-color: black;
+    color: burlywood;
+    font-family: 'Roboto',sans-serif;
+}
+h1{
+    margin: auto;
+    text-align: center;
+}
+.tage-1{
+    color: rgb(84, 84, 90);
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+}
+.tage-2{
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    color: white;
+}
+#border{
+    border-bottom: 5px double black;
+    padding-top: 40px;
+    
+}
+.contact{
+    font-family: 'Roboto',sans-serif;
+    color: white;
+}
+
+table{
+    width: 1000px;
+    color: white;
+    border-collapse: collapse;
+    font-size: 16px;
+    font-family: serif;
+    padding: 5px;
+    border: 5px solid white;
+}
+.input{
+    font-size: 18px;
+    text-align: end;
+    padding-right: 20px;
+}
+input{
+    text-align: start;
+}
+#name{
+    width: 600px;
+    height: 30px;
+    border-radius: 5px;
+    outline: 0;
+    padding: 7px;
+    padding-left: 50px;
+    transform: all .5s;
+}
+#name:hover{
+    transform: scale(1.03);
+}
+#ph{
+    border-radius: 5px;
+    outline: 0;
+    padding: 5px;
+    transform: all .5s;
+}
+#ph:hover{
+    transform: scale(1.03);
+}
+#num{
+    width: 640px;
+    border-radius: 5px;
+    outline: 0;
+    padding: 9px;
+    transform: all .5s;
+}
+#num:hover{
+    transform: scale(1.03);
+}
+.option{
+    font-family: sans-serif;
+    text-align: start;
+    padding-left: 50px;
+}
+#border-2{
+    border-bottom: 5px solid black;
+    padding-top: 40px;
+}
+.news{
+    color: rgb(163, 140, 140);
+    font-family: sans-serif;
+}
+.select{
+   color: white;
+    font-family: sans-serif;
+}
+#checkbox{
+    color: white;
+    font-family: sans-serif;
+}
+.format{
+    color: rgb(163, 140, 140);
+    font-family: sans-serif;
+    padding-top: 30px;
+}
+.radio{
+    color: white;
+    font-family: sans-serif;
+}
+.last-bar{
+    color: white;
+    font-family: sans-serif;
+}
+#coment{
+    width: 936px;
+    height: 80px;
+    margin: auto;
+}
+.last-text{
+    transform: all .5s;
+}
+.last-text:hover{
+    transform: scale(1.03);
+}
+button{
+   padding-left: 450px;
+   padding-right: 450px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: blue;
+   color: white;
+   font-family: sans-serif;
+   border-radius: 5px;
+   transform: all .5s;
+}
+button:hover{
+    transform: scale(1.03);
+}

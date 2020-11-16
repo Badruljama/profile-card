@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="From.css">
+</head>
+
+<body>
+    <div id="topbar">
+        <h1>The Code Review</h1>
+    </div>
+    <div>
+    <h2 class="tage-1">Signup For newsletter</h2>
+    <p class="tage-2">Get the latest news on how code is doing right in you inbox</p>
+    </div>
+    <div id="border"></div>
+    <h2 class="contact">Contact Information</h2>
+    <div>
+        <table>
+            <tr>
+            <td class="option">Full Name:</td>
+            <td class="input"><input type="text" name="fname" id="name"
+            placeholder="Enter U R Full Name"></td>
+            </tr>
+
+            <tr>
+            <td class="option">Email Address:</td>
+            <td class="input"><input type="email" name="email" id="name"
+            placeholder="Enter U R Email Address"></td>
+            </tr>
+             
+            <tr>
+            <td class="option">Phone Number:
+            <select id="ph">
+                <option>+91</option>
+                <option>+92</option>
+                <option>+93</option>
+                <option>+94</option>
+            </select></td>
+            <td class="input"><input type="Number" name="MNum" id="num"
+            placeholder="Enter U R Mobile Number"></td>
+            </tr>
+
+            <tr>
+            <td class="option">Street Address:</td>
+            <td class="input"><input type="street" name="street" id="name"></td>
+            </tr>
+
+            <tr>
+            <td class="option">City:</td>
+            <!-- <select id="city">
+                <option>Guwahati</option>
+                <option>Dispur</option>
+                <option>Nalbary</option>
+                <option>Tezpur</option>
+            </select></td> -->
+            <td class="input"><input type="street" name="street" id="name"></td>
+            </tr>
+
+
+            <tr>
+            <td class="option">State:</td>
+            <td class="input"><input type="state" name="state" id="name"></td>
+            </tr>
+
+            <tr>
+            <td class="option">Zip Code:</td>
+            <td class="input"><input type="zcod" name="zcode" id="name"></td>
+            </tr>
+            
+        </table>
+    </div>
+    <div id="border-2"></div>
+    <h2 class="news">Newsletter</h2>
+    <div>
+        <p class="select">Select the newsletter you would like to recieve</p><br>
+    </div>
+    <div id="checkbox">
+
+        <input type="checkbox" name="interest" value="HTML">&nbsp &nbsp; HTML<br>
+        <input type="checkbox" name="interest" value="HTML">&nbsp &nbsp; CSS News<br>
+        <input type="checkbox" name="interest" value="HTML">&nbsp &nbsp; Java Script News
+
+    </div>
+    <p class="format">Newssletter Format</p>
+    <div>
+       <p class="radio"><input type="radio" name="HTML">&nbsp &nbsp; HTML</p>
+        <p class="radio"><input type="radio" name="HTML">&nbsp &nbsp; Plain text</p>
+    </div><br>
+    <div>
+        <p class="last-bar">Other topics you'd like to here about</p>
+        <p class="last-text"><input type="text" id="coment"  placeholder="Type..."></p>
+    </div>
+    <button onclick="myfun()">Signup</button>
+
+</body>
+</html>
